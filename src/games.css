@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  header {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header div {
+    font-size: 30px;
+    box-shadow: 0px 0px 5px 4px rgb(8, 78, 102, 0.6);
+    padding: 5px 10px 5px 10px;
+    margin: 4px;
+    border-radius: 15px;
+  }
+  header div:hover {
+    opacity: 0.6;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin: 50px;
+  }
+  .img {
+    width: 250px;
+  }
+  .game{
+    border: solid gold 1px;
+  }
+  .games:hover{
+    cursor: pointer;
+    opacity: 0.6;
+  }

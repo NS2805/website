@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB</title>
+    <link rel="stylesheet" href="src/index.css" />
+    <script src="https://kit.fontawesome.com/866fe0a7c0.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Head Section-->
+
+    <header class="header">
+        <!--<div>
+          <img
+            class="header-img"
+            src="kisspng-male-avatar-user-profile-clip-art-profile-5ac69e04c061f0.400875961522966020788.jpg"
+            alt="img"
+          />
+        </div>-->
+        <div>
+          <button class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <div>
+          <i class="fa-solid fa-user-secret"></i></div>
+        <div class="user">N S</div>
+      
+    </header>
+
+    <!-- Sidebar Section-->
+
+    <nav class="sidebar" id="sidebar">
+      <div>Home</div>
+      <div>Projects</div>
+      <a href="stocks.html"><div>Stocks</div></a>
+      <a href="gallery.html"><div>Gallery</div></a>
+      <a href="games.html"><div>Games</div></a>
+      <a href="about.html"><div>About</div></a>
+    </nav>
+
+    <!--Main Body Section-->
+      <main>
+       <div class="img-display">
+
+        <button class="img-left" id="img-left">
+          <i class="fa-solid fa-angle-left"></i>
+        </button> 
+        <button class="img-right" id="img-right">
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+        <div class="img-container" id="img-container">
+
+          <img
+            class="background-img"
+            id="background-img"
+            src="images/image-1.jpg"
+            alt=""
+          />
+          
+        </div>
+       
+       </div>
+    
+          <div class="main-text">
+            <h1>This is a sample project </h1>
+            <h3>About this website : </h3>
+            <p>This website is built using the skills learned through youtube.
+              Skills include HTML, CSS and JavaScript. 
+            </p>
+            <div class="description">
+              <div class="expandMoreContent" id="showMoreContent1">
+                <p>
+                  This website include various opther project as well, which can be accessed 
+                  using the sidebar menu. The projets include a work in progress custom stocks
+                  app, a photo gallery with few pictures. The misclaneous section will include 
+                  all the future projects that will be built, which will include certain games 
+                  also. 
+                </p>
+              </div>
+              <div class="expandMoreHolder">
+                <span expand-more data-hidetext="Show Less..." 
+                data-showtext="Show More..." data-target="showMoreContent1"
+                class="btn-expand-more">...Show More</span>
+              </div>
+            </div>
+            
+          </div>
+
+<!--Form Section-->
+<section class="bottom">
+  <form>
+    <div class="input-section"><h2>Contact Me</h2>
+      
+    </div>
+    
+    <div class="input-section">
+      <div class="input-group">
+        <label for="first-name">First name : </label>
+        <input type="text" name="first-name" id="first-name" value="Enter name">
+      </div>
+      <div class="input-group">
+        <label for="first-name">Last name : </label>
+        <input type="text" name="last-name" id="last-name" value="Enter name">
+      </div>
+
+    </div>
+    <div class="input-section">
+      <input type="radio" id="office" name="office" value="office">
+      <label for="office">Office</label>
+      <input type="radio" id="remote" name="remote" value="remote">
+      <label for="office">Remote</label>
+      <input type="radio" id="other" name="other" value="other">
+      <label for="office">Other</label>
+    </div>
+    <div class="input-section">
+      <input type="checkbox" id="contract" name="contract" value="contract">
+      <label for="contract">Contract Work</label>
+      <input type="checkbox" id="full-time" name="full-time" value="full-time">
+      <label for="contract">Full Time</label>
+    </div>
+    
+    <input class="submit-button" type="submit" value="submit">
+</section>
+          </div>
+        
+      </main>
+
+      
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

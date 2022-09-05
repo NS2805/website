@@ -1,0 +1,156 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: rgb(187, 187, 187);
+    background-color: rgb(24, 24, 24);
+    overflow-y: scroll;
+    line-height: 22.4px;
+   
+}
+.header{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 1px 5px 0 #0d0d0d;  
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(24, 24, 24);
+    
+}
+.header div{
+    padding: 4px;
+    border: none;
+    
+}
+.left-section{
+    display: flex;
+    column-gap: 20px;
+    border: 1px solid black;
+
+}
+.middle-section{
+    display: flex;
+    column-gap: 20px;
+    border: 1px solid black;
+}
+.header button{
+    background-color: rgb(24, 24, 24);
+    color: rgb(187, 187, 187);
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    padding: 0;
+    margin-bottom: 0px;
+    
+}
+.header button:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.right-section{
+    display: flex;
+    column-gap: 20px;
+    border: 1px solid black;
+ }
+ main{
+    display: flex;
+    top: 50px;
+    position: relative;
+    width: 100%;
+    
+    
+ }
+ .left{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    box-shadow: rgb(13, 13, 13) 0px 1px 5px 0px;
+    position: fixed;
+    overflow-y: auto;
+ }
+ .searchbox{
+    width: 99%;
+    padding: 2px;
+    color: rgb(187, 187, 187);
+    background-color: rgb(24, 24, 24);
+    border: none;
+
+ }
+ .searchbox-div{
+   padding: 4px;
+   width: 34%;
+   position: fixed;
+   z-index: 20;
+   font-size: 14px;
+   background-color:rgb(24, 24, 24);
+ }
+ .stock{
+    box-shadow: 0px 0.1px 1px 0 rgb(70, 68, 68);
+    padding: 4px; 
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+ }
+ .stocklist{
+   
+   padding: 30px 4px 4px 4px;
+   display: flex;
+   flex-direction: column;
+
+   
+ }
+ .right{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 35%;
+    
+    background-color:rgb(24, 24, 24);
+    z-index: 4;
+    
+ }
+ .main-right-head{
+    font-size: 24px;
+    width: 65%;
+    
+    box-shadow: 0px 0.1px 1px 0 rgb(70, 68, 68);
+    background-color:rgb(24, 24, 24);
+    padding: 10px 16px 16px 16px;
+    position: fixed;
+    z-index: 3;
+    
+ }
+ .main-right-list{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0px 0.2px 1px 0 rgb(70, 68, 68);
+    top: 46px;
+    
+ }
+ .holdings-title{
+    display: flex;
+    
+    color: rgb(99, 99, 99);
+    padding: 4px 8px 4px 8px;
+    font-size: 16px;
+    justify-content: space-between;
+ }
+ .holdings{
+    display: flex;
+    padding: 4px 8px 4px 8px;
+    font-size: 14px;
+    justify-content: space-between;
+ }
+ .holdings div,.holdings-title div{
+    width: 25%;
+    box-shadow: 0px 0.2px 1px 0 rgb(70, 68, 68);
+    padding: 4px;
+    
+ }
